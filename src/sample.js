@@ -5,7 +5,7 @@ import { HuggingFaceInference } from '@langchain/community/llms/hf';
 // Initialize the Hugging Face model
 const hfModel = new HuggingFaceInference({
 apiKey: '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',
-model: 'gpt-3.5-turbo', // Replace with your desired model
+model: 'gpt2', // Replace with your desired model
 });
 
 const res = await hfModel.invoke("1 + 1 =");
